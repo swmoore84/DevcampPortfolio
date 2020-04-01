@@ -2,5 +2,5 @@
 
 <%= link_to "Create New Item", new_portfolio_path %>
 
-<%= render @portfolio_items %>
+<%= render partial: 'portfolio_item', collection: @portfolio_items %>
 
