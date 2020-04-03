@@ -6,7 +6,7 @@ module CopyrightViewTool
   end
 
   def set_copyright
-    @copyright = WayToSnowViewTool::Renderer.copyright 'Sam Moore', 'All rights reserved'
+    @copyright = CopyrightViewTool::Renderer.copyright 'Sam Moore', 'All rights reserved'
   end
 
   class Renderer
