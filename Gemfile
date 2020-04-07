@@ -55,3 +55,6 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 
 gem "font-awesome-rails"
+
+gem 'kaminari'
+
