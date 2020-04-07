@@ -6,12 +6,12 @@ module CopyrightViewTool
   end
 
   def set_copyright
-    @copyright = CopyrightViewTool::Renderer.copyright 'Sam Moore', 'All rights reserved'
+    @copyright = CopyrightViewTool::Renderer.copyright 'Sam Moore'
   end
 
   class Renderer
-    def self.copyright name, msg
-      "&copy; #{Time.now.year} | <b>#{name}</b> #{msg}".html_safe
+    def self.copyright name
+      "&copy; #{Time.now.year} | <b>#{name}</b>".html_safe
     end
   end
 end
