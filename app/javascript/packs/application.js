@@ -5,3 +5,5 @@ require("channels")
 
 import 'bootstrap';
 import './src/application.scss'
+
+console.log("Hello from here");
