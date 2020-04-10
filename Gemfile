@@ -60,7 +60,7 @@ gem 'kaminari'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
-gem 'carrierwave', '~> 0.11.2'
+gem 'carrierwave', '~> 2.1'
 
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 
