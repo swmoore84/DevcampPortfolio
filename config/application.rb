@@ -19,11 +19,13 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
 module DevcampPortfolio
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
     config.generators.system_tests = nil
+    config.assets.paths << "#{Rails.root}/app/assets/videos"
   end
 end
